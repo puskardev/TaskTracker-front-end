@@ -1,0 +1,32 @@
+
+<div>
+  <div class="login-background">
+    <div class="center">
+      <div class="alert alert-warning" *ngIf='invalidLogin'>{{errorMessage}}</div>
+      <img src="assets/profile.jpg">
+     
+      <div class="text_field">
+        <input type="text" name="username" [(ngModel)]="username">
+        <span></span>
+      </div>
+      <div class="text_field">
+        <input type="password" name="password" [(ngModel)]="password">    
+        <span></span>    
+      </div>  
+     
+  
+      <!-- User Name : {{username}} -->
+  
+      <!-- <button (click)=handleLogin() class="btn btn-success">Login</button> -->
+      <!-- <button (click)=handleBasicAuthLogin() class="btn btn-success">Login</button> -->
+      <button (click)=handleJWTAuthLogin() class="btn btn-success">Login</button>
+      
+    </div>
+
+
+    </div>
+
+   
+</div>
+
+

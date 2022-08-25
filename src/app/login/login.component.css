@@ -1,0 +1,70 @@
+.login-background {  
+    position: absolute;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    background-image: url("E:\Angular\TaskTracker-front-end\src\assets\deer.jpg");  
+    background-size: 100% ;     
+}  
+
+.center{
+    position: absolute;
+    text-align: center;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    font-family: montserrat;
+}
+
+.center h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.text_field {
+    padding: 0 25%;
+    position:relative;
+    margin: 30px 0;
+
+}
+
+.text_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+}
+.text_field label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+}
+
+.text_field span::before{
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    background: #2691d9;
+}
+
+.btn {
+    text-align: center;
+    position: relative;
+    width: 50%;
+    height: 40px;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }

@@ -1,0 +1,20 @@
+.dashboard-view {  
+    position: absolute;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    background-image: url("E:\Angular\TaskTracker-front-end\src\assets\books.jpg");  
+    background-size: 100% ;     
+}  
+
+.center-align{
+    position: absolute;
+    text-align: center;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    font-family: montserrat;
+}

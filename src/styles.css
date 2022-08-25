@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(https://unpkg.com/bootstrap@4.1.0/dist/css/bootstrap.min.css);
+
+.sect2 {  
+    height: 650 px;  
+    color: #fff;
+    background-image: url("E:\Angular\TaskTracker-front-end\src\assets\books.jpg");  
+    background-size: 100% ;  
+   
+}  
+
