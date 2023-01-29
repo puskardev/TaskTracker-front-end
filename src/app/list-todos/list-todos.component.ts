@@ -24,6 +24,8 @@ export class ListTodosComponent implements OnInit {
 
   message: string
 
+  checked: boolean;
+
   // = [
   //   new Todo(1, 'Learn to Dance', false, new Date()),
   //   new Todo(2, 'Become an Expert at Angular', false, new Date()),
