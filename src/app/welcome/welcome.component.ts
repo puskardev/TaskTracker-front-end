@@ -28,16 +28,10 @@ export class WelcomeComponent implements OnInit {
   constructor(
     private route:ActivatedRoute,
     private service:WelcomeDataService
-    ) { 
-     
+    ) {}
 
-  }
-
-  // void init() {
   ngOnInit(){
-    //COMPILATION ERROR this.message = 5
-    //console.log(this.message)
-    // console.log(this.route.snapshot.params['name'])
+
     this.name = this.route.snapshot.params['name'];
     this.currDate = this.getformattedDate();
         

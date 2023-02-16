@@ -14,6 +14,8 @@ export class MenuComponent implements OnInit {
 
   ngOnInit() {
     //this.isUserLoggedIn = this.hardcodedAuthenticationService.isUserLoggedIn();
+
+    // Add Authentication logic in the menu component.
   }
 
 }

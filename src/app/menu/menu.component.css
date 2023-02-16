@@ -6,3 +6,11 @@ img {
   height: 50px; 
   }
 
+.navbar-link {
+  text-align: center;
+}
+
+
+.center {
+margin-left: 30%;
+  }

@@ -6,11 +6,15 @@
                     Personal Journal</a>
         </div>
           
+        <div class="center">
+            <ul class="navbar-nav">
+                <li><a *ngIf="hardcodedAuthenticationService.isUserLoggedIn()" routerLink="/welcome/in28minutes" class="nav-link">Home</a></li>
+                <li><a *ngIf="hardcodedAuthenticationService.isUserLoggedIn()" routerLink="/todos" class="nav-link">Tasks</a></li>
+                <li><a *ngIf="hardcodedAuthenticationService.isUserLoggedIn()" routerLink="/expenses" class="nav-link">Expenses</a></li>
+            </ul>   
 
-        <ul class="navbar-nav">
-            <li><a *ngIf="hardcodedAuthenticationService.isUserLoggedIn()" routerLink="/welcome/in28minutes" class="nav-link">Home</a></li>
-            <li><a *ngIf="hardcodedAuthenticationService.isUserLoggedIn()" routerLink="/todos" class="nav-link">Tasks</a></li>
-        </ul>
+
+        </div>      
 
         <ul class="navbar-nav navbar-collapse justify-content-end">
                 <li><a *ngIf="!hardcodedAuthenticationService.isUserLoggedIn()" routerLink="/login" class="nav-link">Login</a></li>
